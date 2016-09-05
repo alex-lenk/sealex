@@ -1,0 +1,33 @@
+
+@import 'lib/breakpoint';
+@import 'lib/breakpoint-slicer';
+@import 'partials/mixins';
+@import "partials/common";
+/*@import "partials/top-panel";
+@import "partials/nav";
+@import "partials/header";
+@import "partials/advantages";
+@import "partials/info-panel";
+@import "partials/producers";
+@import "partials/popular-producers";
+@import "partials/have-questions";
+@import "partials/news-area";
+@import "partials/footer";
+*/
+.wrapper {
+  width: 100%;
+  min-width: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.block {
+  height: 1012px;
+  background: url("../img/bg-block.jpg") no-repeat top left;
+}
